@@ -11,6 +11,7 @@ Group:		Applications/Publishing/TeX
 Source0:	ftp://ftp.ctan.org/tex-archive/macros/latex/contrib/%{short_name}.zip
 # Source0-md5:	171ec47cb9ee78637fe45af39e3a6551
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/appendix/
+BuildRequires:	tetex-format-latex
 Requires(post,postun):	/usr/bin/texhash
 Requires:	tetex-latex
 BuildArch:	noarch
