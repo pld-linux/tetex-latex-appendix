@@ -26,8 +26,8 @@ used, for example, for per chapter/section appendices.
 
 %description -l pl
 Ten pakiet pozwala na wiêksz± kontrolê nad formatowaniem tytu³ów
-dodatków. Dodatkowo, udostêpnia ¶rodowiska (pod)dodatków co mo¿e byæ
-przydatne na przyk³ad podczas tworzenia dodatków dla rozdzia³u/sekcji.
+dodatków. Dodatkowo udostêpnia ¶rodowiska (pod)dodatków, co mo¿e byæ
+przydatne na przyk³ad podczas tworzenia dodatków dla rozdzia³ów/sekcji.
 
 %prep
 %setup -q -n %{short_name}
@@ -54,5 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{_datadir}/texmf/tex/latex/%{short_name}/*
-%doc %{_datadir}/texmf/doc/latex/%{short_name}/*
+%{_datadir}/texmf/tex/latex/%{short_name}
+%doc %{_datadir}/texmf/doc/latex/%{short_name}
