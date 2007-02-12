@@ -2,7 +2,7 @@
 %define short_name appendix
 
 Summary:	Extra control of appendices
-Summary(pl):	Wiêksza kontrola nad formatowaniem dodatków
+Summary(pl.UTF-8):   WiÄ™ksza kontrola nad formatowaniem dodatkÃ³w
 Name:		tetex-latex-%{short_name}
 Version:	1.3
 Release:	1
@@ -24,10 +24,10 @@ The appendix package provides various ways of formatting the titles of
 appendices. Also (sub)appendices environments are provided that can be
 used, for example, for per chapter/section appendices.
 
-%description -l pl
-Ten pakiet pozwala na wiêksz± kontrolê nad formatowaniem tytu³ów
-dodatków. Dodatkowo udostêpnia ¶rodowiska (pod)dodatków, co mo¿e byæ
-przydatne na przyk³ad podczas tworzenia dodatków dla rozdzia³ów/sekcji.
+%description -l pl.UTF-8
+Ten pakiet pozwala na wiÄ™kszÄ… kontrolÄ™ nad formatowaniem tytuÅ‚Ã³w
+dodatkÃ³w. Dodatkowo udostÄ™pnia Å›rodowiska (pod)dodatkÃ³w, co moÅ¼e byÄ‡
+przydatne na przykÅ‚ad podczas tworzenia dodatkÃ³w dla rozdziaÅ‚Ã³w/sekcji.
 
 %prep
 %setup -q -n %{short_name}
