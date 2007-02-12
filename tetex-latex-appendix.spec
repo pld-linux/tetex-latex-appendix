@@ -2,7 +2,7 @@
 %define short_name appendix
 
 Summary:	Extra control of appendices
-Summary(pl.UTF-8):   Większa kontrola nad formatowaniem dodatków
+Summary(pl.UTF-8):	Większa kontrola nad formatowaniem dodatków
 Name:		tetex-latex-%{short_name}
 Version:	1.3
 Release:	1
